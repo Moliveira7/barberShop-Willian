@@ -11,9 +11,7 @@ interface BarbershopDetailsPageProps {
   };
 }
 
-const BarbershopDetailsPage = async ({
-  params,
-}: BarbershopDetailsPageProps) => {
+const BarbershopDetailsPage = async ({ params }: BarbershopDetailsPageProps) => {
   if (!params.id) {
     // TODO redirecionar para home page
     return null;
